@@ -1,0 +1,71 @@
+:root {
+  --background-color: rgb(50, 50, 50);
+  --text-color: white;
+  --navbar-background-color: #262e4b;
+  --navbar-border-color: black;
+  --navbar-text-color: #629cc4;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  font-family: Didot, Consolas, Cambria;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px 16px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  outline: none;
+}
+input:focus {
+  border: 3px solid #555;
+}
+
+button {
+  width: 100%;
+  background-color: var(--navbar-background-color);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: var(--navbar-text-color);
+}
+
+form {
+  border-radius: 4px;
+  background-color: #666;
+  padding: 10;
+  margin-top: 20;
+  width: 45%;
+  text-align: center;
+}
+
+p {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.main-list {
+  border-radius: 4px;
+  background-color: #666;
+  padding: 10;
+  width: 45%;
+  text-align: center;
+  > li {
+    list-style-type: none;
+  }
+}
+
+.body-text {
+  margin-left: 20;
+}

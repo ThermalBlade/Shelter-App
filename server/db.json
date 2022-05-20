@@ -1,0 +1,117 @@
+{
+  "shelters": [
+    {
+      "id": "AmazingShelter",
+      "name": "Amazing Shelter",
+      "location": "Amazing Town"
+    }
+  ],
+  "cats": [
+    {
+      "type": "Cat",
+      "shelter": "Amazing Shelter",
+      "name": "Musci",
+      "status": "Adopted",
+      "previousOwners": [],
+      "monthsInShelter": 14,
+      "id": "e20594e0-fb74-4df5-b489-cf30bb2a18d0"
+    },
+    {
+      "type": "Cat",
+      "shelter": "Amazing Shelter",
+      "name": "Lucas",
+      "status": "For Adoption",
+      "previousOwners": [
+        "Cameron"
+      ],
+      "monthsInShelter": 16,
+      "id": "e20594e0-fb74-4df5-b489-cf30bb2a18d1",
+      "shelterId": "Amazing Shelter"
+    },
+    {
+      "type": "Cat",
+      "shelter": "AmazingShelter",
+      "name": "Lucas",
+      "status": "For Adoption",
+      "previousOwners": [
+        "Cameron"
+      ],
+      "monthsInShelter": 16,
+      "id": "e20594e0-fb74-4df5-b489-cf30bb2a18d2"
+    },
+    {
+      "type": "Cat",
+      "shelter": "Amazing Shelter",
+      "name": "Chunky",
+      "status": "Adopted",
+      "previousOwners": [
+        "Ms. Doubtfire"
+      ],
+      "monthsInShelter": 7,
+      "id": "88a1888d-fd46-4c28-b78e-92c5b452c205"
+    },
+    {
+      "type": "Cat",
+      "shelter": "Amazing Shelter",
+      "name": "Vicious",
+      "status": "For Adoption",
+      "previousOwners": [
+        "Ross",
+        "Rachel",
+        "Chandler",
+        "Monica",
+        "Phoebe",
+        "Joey"
+      ],
+      "monthsInShelter": 11,
+      "id": "d8e41bf9-b27e-491d-84a7-bc6aa21254ea"
+    }
+  ],
+  "dogs": [
+    {
+      "type": "Dog",
+      "shelter": "Amazing Shelter",
+      "name": "Sparky",
+      "status": "Adopted",
+      "previousOwners": [
+        "Ted",
+        "Barney"
+      ],
+      "monthsInShelter": 2,
+      "id": "82af7c7c-99a7-4f81-93ea-342e2e1d6b61"
+    },
+    {
+      "type": "Dog",
+      "shelter": "Amazing Shelter",
+      "name": "Bolt",
+      "status": "For Adoption",
+      "previousOwners": [],
+      "monthsInShelter": 0,
+      "id": "078d1236-6948-4c13-a2f4-9092b4aa80bc"
+    },
+    {
+      "type": "Dog",
+      "shelter": "Amazing Shelter",
+      "name": "Clifford",
+      "status": "For Adoption",
+      "previousOwners": [],
+      "monthsInShelter": 0,
+      "id": "db7550b7-796c-4ce5-871b-013638daee2d"
+    },
+    {
+      "type": "Dog",
+      "shelter": "Amazing Shelter",
+      "name": "Old Yeller",
+      "status": "Adopted",
+      "previousOwners": [
+        "Robin"
+      ],
+      "monthsInShelter": 4,
+      "id": "d0e988c8-b678-4222-9aba-305e58173000"
+    }
+  ],
+  "animalTypes": {
+    "Cat": "cats",
+    "Dog": "dogs"
+  }
+}
